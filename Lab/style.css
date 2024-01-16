@@ -1,0 +1,228 @@
+/* Antraščių ir pastraipų šriftų stilius */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+  
+  p {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: normal; 
+  }
+  
+  /* Nuorodų ir mygtukų išvaizda */
+  a {
+    color: #0011ff; 
+    text-decoration: none; 
+  }
+  
+  a:hover {
+    color: #6e6e6e; 
+    text-decoration: underline; 
+  }
+  
+  button {
+    background-color: #FFFFFF; 
+    color: #2f00ff; 
+    padding: 10px 20px; 
+    border: none; 
+  }
+  
+  button:hover {
+    background-color: #00FFFF;
+    color: #000000; 
+  }
+  
+  /* Elemento stilius */
+.custom-div {
+    border: 2px solid #000; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+  }
+  /* Antraščių stiliai */
+.main-header {
+    background-color: #29315f;
+    color: #fff;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+  }
+  
+  .logo img {
+    width: 500px;
+    height: auto;;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .main-nav li {
+    margin-right: 20px;
+  }
+  
+  .main-nav a {
+    color: #464545;
+    text-decoration: none;
+  }
+  
+  /* Socialinių tinklų ikonų stiliai */
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: cover;
+    background-image: url('darkblue.png');
+
+  }
+  
+  /* Stiliai keičiantiems paryškinti nuorodas */
+  .main-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icon.facebook {
+    background-image: url('fblogo.png');
+  }
+  
+  .social-icon.twitter {
+    background-image: url('xlogo.png');
+  }
+
+  .main-heading {
+    transform: rotate(90deg); /* Pasukame antraštę į 90 laipsių kampą prieš laikrodžio rodyklę */
+    position: fixed;
+    top: 0;
+    left: 0; /* Pridėkite/arba keiskite nuotolį nuo viršaus, kad būtų atitinkama pozicija */
+    margin: 0;
+    white-space: nowrap; /* Neleidžia antraštės eilutėms sudėti viena ant kitos */
+    transform-origin: bottom left;
+  }
+
+
+
+
+
+  /* Main header styles */
+  .main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0; /* Cover entire vertical space */
+    width: 300px;
+    background-color: #29315f;
+    color: #fff;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between;
+    padding: 20px;
+    overflow-y: auto; /* Enable scrolling if needed */
+  }
+
+  /* Styles for the resume section */
+.resume {
+  text-align: left; /* Center the content horizontally */
+  padding: 20px; /* Add padding to the content */
+  margin-left: 500px; /* Adjust the left margin to shift the content to the left */
+
+}
+
+.resume-item {
+  margin-bottom: 20px; /* Add space between resume items */
+}
+
+  /* puslapio turinys */
+  .page-content {
+    padding-left: 255px; /* Pridedame tarpą nuo headerio iki turinio */
+    margin-left: 255px; /* Paslenka visą turinį į dešinę, išskyrus headerį */
+  }
+  
+  /* Logo styles */
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Navigation styles */
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .main-nav li {
+    margin-bottom: 10px; /* Add space between items */
+  }
+  
+  .main-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Social icons styles */
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px; /* Add space between icons */
+    background-size: cover;
+  }
+  
+  /* Styling for rotating text */
+  .main-heading {
+    transform: rotate(-90deg); /* Rotate text */
+    white-space: nowrap; /* Keep text in a single line */
+    position: absolute;
+    top: 50%;
+    left: -20px; /* Adjust distance from the left */
+    margin: 0;
+    transform-origin: bottom left;
+  }
+
+  /* Style for the header navigation */
+.main-nav ul li a img {
+  width: 20px; /* Adjust the width of the logos */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 5px; /* Optional: Add space between logo and text */
+}
+
+/* Footer stiliai */
+.main-footer {
+  background-color: #333; /* Keičiame fono spalvą */
+  color: #fff; /* Keičiame teksto spalvą */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Stilius socialinių tinklų ikonomis */
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  /* Čia nustatome fono spalvą ir ikoną */
+}
+
+/* Stilius kontaktinei informacijai ir kūrėjo vardui */
+.contact-info,
+.creator {
+  margin-bottom: 10px;
+}

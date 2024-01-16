@@ -1,0 +1,22 @@
+@media print {
+    body {
+      font-family: serif; /* Serifinis šriftas */
+    }
+    
+    img {
+      display: block; /* Paveikslai vienas po kito */
+      margin: 10px 0; /* Atstumas tarp paveikslų */
+    }
+    
+    table {
+      width: 100%; /* Lentelės plotis užima visas langą */
+      border-collapse: collapse; /* Apjungia lentelės kraštus */
+      margin-bottom: 10px; /* Atstumas po lentelės */
+    }
+    
+    table, th, td {
+      border: 1px solid black; /* Rėmelis lentelėms ir jos elementams */
+      padding: 5px; /* Atstumas nuo rėmelio iki teksto */
+      text-align: left; /* Teksto lygiavimas kairėje */
+    }
+  }
